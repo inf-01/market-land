@@ -1,0 +1,252 @@
+{
+  "categorias": [
+    { "id": "todos", "nombre": "Todos" },
+    { "id": "taller", "nombre": "Taller" },
+    { "id": "restaurante", "nombre": "Restaurante" },
+    { "id": "agencia", "nombre": "Agencia" },
+    { "id": "ecommerce", "nombre": "E-commerce" },
+    { "id": "salud", "nombre": "Salud" }
+  ],
+  "plantillas": [
+    {
+      "id": "taller-automotriz",
+      "nombre": "Taller Automotriz Pro",
+      "categoria": "taller",
+      "descripcion": "Landing page 3D para talleres mecánicos con simulador de vehículos, agendamiento de citas y chatbot de diagnóstico.",
+      "descripcion_larga": "Plantilla completa para talleres automotrices que quieren destacar. Incluye hero 3D interactivo con un modelo de auto, sección de servicios con animaciones de scroll, formulario de agendamiento de citas y chatbot inteligente que responde dudas de clientes 24/7.",
+      "precio": 30,
+      "precio_servicio": 250,
+      "imagen": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=800&q=80",
+      "demo": "https://demo.templatedemos.com/taller",
+      "destacada": true,
+      "caracteristicas": [
+        "Mobile-First responsive",
+        "Animaciones GSAP + ScrollTrigger",
+        "Elemento 3D con Three.js",
+        "Scroll suave con Lenis",
+        "Chatbot integrado",
+        "Formulario de agendamiento",
+        "SEO optimizado",
+        "Carga ultrarrápida"
+      ],
+      "faq": [
+        {
+          "pregunta": "¿Necesito conocimientos técnicos para usar la plantilla?",
+          "respuesta": "No. La plantilla es HTML/CSS/JS puro, sin frameworks. Solo debes editar los textos e imágenes. Si lo prefieres, el servicio completo incluye implementación total."
+        },
+        {
+          "pregunta": "¿Incluye dominio y hosting?",
+          "respuesta": "La plantilla sola no incluye dominio ni hosting. El servicio completo por $250 sí incluye dominio, hosting en Cloudflare Pages y configuración completa."
+        },
+        {
+          "pregunta": "¿Puedo pedir cambios en el diseño?",
+          "respuesta": "Sí. Puedes solicitar personalizaciones adicionales desde la página de contacto. Adaptamos colores, textos, secciones y funcionalidades a tu marca."
+        },
+        {
+          "pregunta": "¿Cómo recibo la plantilla tras comprar?",
+          "respuesta": "Recibirás un correo de Lemon Squeezy con el enlace de descarga inmediato al archivo ZIP que contiene el código fuente completo."
+        }
+      ]
+    },
+    {
+      "id": "restaurante-gourmet",
+      "nombre": "Restaurante Gourmet",
+      "categoria": "restaurante",
+      "descripcion": "Sitio para restaurantes con menú digital 3D, reservas online y parallax cinematográfico de platos.",
+      "descripcion_larga": "Diseño premium para restaurantes y bares. Menú digital animado, sistema de reservas, galería con efecto parallax y elementos 3D que muestran tus platos destacados.",
+      "precio": 30,
+      "precio_servicio": 250,
+      "imagen": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "demo": "https://demo.templatedemos.com/restaurante",
+      "destacada": true,
+      "caracteristicas": [
+        "Mobile-First responsive",
+        "Menú digital animado",
+        "Sistema de reservas",
+        "Animaciones GSAP",
+        "Elemento 3D con Three.js",
+        "Galería parallax",
+        "Integración con Google Maps",
+        "SEO local optimizado"
+      ],
+      "faq": [
+        {
+          "pregunta": "¿Puedo actualizar el menú yo mismo?",
+          "respuesta": "Sí. El menú se edita en un archivo JSON simple o directamente en el HTML. También podemos conectarlo a Google Sheets para que lo actualices sin tocar código."
+        },
+        {
+          "pregunta": "¿Funciona la reserva en móvil?",
+          "respuesta": "Sí, el formulario de reservas está optimizado para móvil con touch targets de 44px mínimo y funciona perfectamente en todos los dispositivos."
+        }
+      ]
+    },
+    {
+      "id": "agencia-creative",
+      "nombre": "Agencia Creative 3D",
+      "categoria": "agencia",
+      "descripcion": "Portfolio para agencias creativas con transiciones de página, showreel 3D y galería de proyectos inmersiva.",
+      "descripcion_larga": "Plantilla de alto impacto para agencias de diseño y marketing. Showreel 3D en el hero, transiciones suaves entre secciones y una galería de proyectos con filtros animados.",
+      "precio": 30,
+      "precio_servicio": 250,
+      "imagen": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+      "demo": "https://demo.templatedemos.com/agencia",
+      "destacada": true,
+      "caracteristicas": [
+        "Mobile-First responsive",
+        "Showreel 3D en hero",
+        "Transiciones con GSAP",
+        "Galería con filtros",
+        "Scroll suave Lenis",
+        "Sección de testimonials",
+        "Blog integrado",
+        "Formulario de contacto"
+      ],
+      "faq": [
+        {
+          "pregunta": "¿Cuánto pesa la plantilla?",
+          "respuesta": "Menos de 500KB sin optimizar. Three.js y GSAP se cargan desde CDN con carga diferida para no afectar el LCP."
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-tech",
+      "nombre": "E-commerce Tech Store",
+      "categoria": "ecommerce",
+      "descripcion": "Tienda online minimalista con carrito, fichas de producto 3D y checkout integrado con Lemon Squeezy.",
+      "descripcion_larga": "Plantilla de e-commerce lista para vender. Catálogo con filtros, carrito de compras, fichas de producto con vista 3D y checkout procesado por Lemon Squeezy.",
+      "precio": 30,
+      "precio_servicio": 250,
+      "imagen": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80",
+      "demo": "https://demo.templatedemos.com/ecommerce",
+      "destacada": false,
+      "caracteristicas": [
+        "Mobile-First responsive",
+        "Carrito de compras",
+        "Vista 3D de producto",
+        "Checkout Lemon Squeezy",
+        "Filtros de catálogo",
+        "Animaciones GSAP",
+        "SEO optimizado",
+        "Rendimiento 90+ Lighthouse"
+      ],
+      "faq": [
+        {
+          "pregunta": "¿Necesito cuenta de Lemon Squeezy?",
+          "respuesta": "Sí, es gratis crear una cuenta. Solo debes reemplazar el marcador TU_PRODUCT_ID con el ID de tu producto y listo."
+        }
+      ]
+    },
+    {
+      "id": "clinica-dental",
+      "nombre": "Clínica Dental Care",
+      "categoria": "salud",
+      "descripcion": "Sitio para clínicas con agendamiento de citas, presentación de equipo y chatbot de triaje.",
+      "descripcion_larga": "Plantilla profesional para clínicas dentales y consultorios médicos. Agenda de citas, perfiles del equipo, tour virtual 3D del consultorio y chatbot de triaje inicial.",
+      "precio": 30,
+      "precio_servicio": 250,
+      "imagen": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80",
+      "demo": "https://demo.templatedemos.com/dental",
+      "destacada": false,
+      "caracteristicas": [
+        "Mobile-First responsive",
+        "Agendamiento de citas",
+        "Chatbot de triaje",
+        "Tour 3D del consultorio",
+        "Animaciones GSAP",
+        "Formulario de pacientes",
+        "Cumplimiento de accesibilidad",
+        "SEO sanitario"
+      ],
+      "faq": [
+        {
+          "pregunta": "¿Los datos de pacientes se guardan de forma segura?",
+          "respuesta": "El formulario puede conectarse a Google Forms o a tu backend con cifrado. Nunca almacenamos datos sensibles en el cliente."
+        }
+      ]
+    },
+    {
+      "id": "taller-moto-custom",
+      "nombre": "Taller Motos Custom",
+      "categoria": "taller",
+      "descripcion": "Landing para talleres de motos con configurador 3D, galería de trabajos y presupuesto online.",
+      "descripcion_larga": "Diseño agresivo y moderno para talleres de motocicletas. Configurador 3D de personalización, galería de trabajos realizados y formulario de presupuesto instantáneo.",
+      "precio": 30,
+      "precio_servicio": 250,
+      "imagen": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+      "demo": "https://demo.templatedemos.com/motos",
+      "destacada": false,
+      "caracteristicas": [
+        "Mobile-First responsive",
+        "Configurador 3D",
+        "Galería de trabajos",
+        "Formulario de presupuesto",
+        "Animaciones GSAP",
+        "Scroll suave Lenis",
+        "Chatbot integrado",
+        "SEO local"
+      ],
+      "faq": [
+        {
+          "pregunta": "¿Puedo cambiar el 3D por un video?",
+          "respuesta": "Sí. El componente 3D es modular, se puede reemplazar por un video de fondo o una imagen animada editando una línea en main.js."
+        }
+      ]
+    },
+    {
+      "id": "pizzeria-napoli",
+      "nombre": "Pizzería Napoli",
+      "categoria": "restaurante",
+      "descripcion": "Web para pizzerías con pedidos online, mapa de reparto y animación de masa de pizza 3D.",
+      "descripcion_larga": "Plantilla divertida y rápida para pizzerías. Sistema de pedidos online, mapa de zonas de reparto y una animación 3D de masa de pizza que reacciona al scroll.",
+      "precio": 30,
+      "precio_servicio": 250,
+      "imagen": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+      "demo": "https://demo.templatedemos.com/pizzeria",
+      "destacada": false,
+      "caracteristicas": [
+        "Mobile-First responsive",
+        "Pedidos online",
+        "Mapa de reparto",
+        "Animación 3D",
+        "Menú digital",
+        "WhatsApp integrado",
+        "GSAP animations",
+        "SEO local"
+      ],
+      "faq": [
+        {
+          "pregunta": "¿Se integra con Rappi o PedidosYa?",
+          "respuesta": "Podemos añadir botones de enlace a tus perfiles en plataformas de delivery. La integración directa requiere API oficial."
+        }
+      ]
+    },
+    {
+      "id": "studio-fotografia",
+      "nombre": "Studio Fotografía",
+      "categoria": "agencia",
+      "descripcion": "Portfolio fotográfico con galería lightbox, efecto tilt-shift 3D y reservas de sesiones.",
+      "descripcion_larga": "Plantilla elegida por fotógrafos y estudios creativos. Galería con lightbox, efecto parallax en cada foto, modelo 3D del estudio y sistema de reservas de sesiones.",
+      "precio": 30,
+      "precio_servicio": 250,
+      "imagen": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=800&q=80",
+      "demo": "https://demo.templatedemos.com/foto",
+      "destacada": false,
+      "caracteristicas": [
+        "Mobile-First responsive",
+        "Galería lightbox",
+        "Parallax avanzado",
+        "Reservas de sesiones",
+        "Animaciones GSAP",
+        "Scroll Lenis",
+        "Optimización de imágenes",
+        "SEO optimizado"
+      ],
+      "faq": [
+        {
+          "pregunta": "¿Soporta muchas fotos sin lentitud?",
+          "respuesta": "Sí, usa lazy loading y formatos modernos (WebP/AVIF). Puedes tener cientos de fotos sin afectar el rendimiento."
+        }
+      ]
+    }
+  ]
+}
